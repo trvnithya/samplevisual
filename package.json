@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run" : "cypress run --env updateSnapshots=type",
+    "cy:run" : "cypress run",
+    "cy:dashboard" : "cypress run --record --key b3a74d5f-d211-4ee3-bcfe-c67ff16da11d",
+    "cy:updateSnap" : "cypress run --env updateSnapshots=type",
     "cy:image" : "cypress run --env failOnSnapshotDiff=false"
   },
   "author": "",

@@ -4,7 +4,7 @@ describe('First Visual Testing Sample', () => {
         cy.visit('https://www.example.com')
        cy.viewport('ipad-2')
         //To Compare the screen
-       // cy.viewport('iphone-6')
+        //cy.viewport('iphone-6')
         cy.matchImageSnapshot()
     })
 })
